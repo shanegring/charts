@@ -21,9 +21,11 @@
 
 <body>
 
-<div id="container-1"></div>
+<div id="container-1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <div id="container-2" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<div id="container-3" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <h1>Test</h1>
 
@@ -37,7 +39,7 @@
                     type: 'area'
                 },
                 title: {
-                    text: 'Growth of WELL Certified Square Footage over time'
+                    text: 'Growth of WELL Certified APs over time'
                 },
                 subtitle: {
                     text: 'Source: wellcertified.com'
@@ -48,25 +50,46 @@
 
                 xAxis: {
                     categories: [
-                        'Jan',
-                        'Feb',
-                        'Mar',
-                        'Apr',
-                        'May',
-                        'June',
-                        'July',
-                        'Aug',
-                        'Sept',
-                        'Oct',
-                        'Nov',
-                        'Dec'
-                    ]
+                        'Oct 15',
+                        'Nov 15',
+                        'Dec 15',
+                        'Jan 16',
+                        'Feb 16',
+                        'Mar 16',
+                        'Apr 16',
+                        'May 16',
+                        'June 16',
+                        'July 16',
+                        'Aug 16',
+                        'Sept 16',
+                        'Oct 16',
+                        'Nov 16',
+                        'Dec 16',
+                        'Jan 17',
+                        'Feb 17',
+                        'Mar 17',
+                        'Apr 17',
+                        'May 17',
+                        'June 17',
+                        'July 17',
+                        'Aug 17',
+                        'Sept 17',
+                        'Oct 17',
+                        'Nov 17',
+                        'Dec 17',
+                        'Jan 18',
+                    ],
+                    tickmarkPlacement: 'on',
+                    title: {
+                        enabled: false
+                    }
                 },
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Total square footage of WELL certified projects (sq. ft.)'
+                        text: 'Certified WELL APs'
                     }
+
                 },
                 tooltip: {
                     headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
@@ -84,7 +107,7 @@
                 },
                 series: [{
                   name: 'Total square feet',
-                    data: [49.9, 71.5, 106.4, 129.2, 144.0, 154, 169, 189, 200, 310, 400, 504],
+                    data: [1, 10, 41, 63, 77, 104, 143, 207, 286, 386, 496, 644, 731, 821, 924, 1006, 1059, 1161, 1281, 1484, 1675, 1793, 1894, 1974, 2049, 2218, 2384, 2505],
 
 
                 }]
@@ -111,24 +134,49 @@
 
                 xAxis: {
                     categories: [
-                        'Jan',
-                        'Feb',
-                        'Mar',
-                        'Apr',
-                        'May',
-                        'June',
-                        'July',
-                        'Aug',
-                        'Sept',
-                        'Oct',
-                        'Nov',
-                        'Dec'
+                        'Jan 15',
+                        'Feb 15',
+                        'Mar 15',
+                        'Apr 15',
+                        'May 15',
+                        'June 15',
+                        'July 15',
+                        'Aug 15',
+                        'Sept 15',
+                        'Oct 15',
+                        'Nov 15',
+                        'Dec 15',
+                        'Jan 16',
+                        'Feb 16',
+                        'Mar 16',
+                        'Apr 16',
+                        'May 16',
+                        'June 16',
+                        'July 16',
+                        'Aug 16',
+                        'Sept 16',
+                        'Oct 16',
+                        'Nov 16',
+                        'Dec 16',
+                        'Jan 17',
+                        'Feb 17',
+                        'Mar 17',
+                        'Apr 17',
+                        'May 17',
+                        'June 17',
+                        'July 17',
+                        'Aug 17',
+                        'Sept 17',
+                        'Oct 17',
+                        'Nov 17',
+                        'Dec 17',
+                        'Jan 18',
                     ]
                 },
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Total square footage of WELL certified projects (sq. ft.)'
+                        text: 'Total square footage of WELL registered projects (sq. ft.)'
                     }
                 },
                 tooltip: {
@@ -147,13 +195,51 @@
                 },
                 series: [{
                   name: 'Total square feet',
-                    data: [49.9, 71.5, 106.4, 129.2, 144.0, 154, 169, 189, 200, 310, 400, 504]
-
+                    data: [
+                        165191,
+                        169830,
+                        188730,
+                        3192224,
+                        8119829,
+                        12352870,
+                        14999022.2,
+                        15757183.2,
+                        16519058.2,
+                        16818958.2,
+                        17450745.2,
+                        19647610.2,
+                        20827603.2,
+                        22206576.2,
+                        24935601.2,
+                        27383448.2,
+                        33884461,
+                        42075279.1,
+                        47884237.1,
+                        50903403.1,
+                        55354801.9,
+                        58008242.9,
+                        60751460.9,
+                        65612134.9,
+                        70033004.9,
+                        76110048.6,
+                        79167471.6,
+                        81842418.7,
+                        91599878.7,
+                        103933526.8,
+                        107556983.6,
+                        113486497.6,
+                        120430623.1,
+                        123557676.9,
+                        126490018.2,
+                        129826469.2,
+                        134261297.2
+                        ]
 
                 }]
             });
         });
     </script>
+
 
 
 </html>
